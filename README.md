@@ -11,7 +11,6 @@ Ce projet permet d'apprendre la programmation audio en temps réel en construisa
 - **Piano virtuel** : 13 notes (Do4 à Do5) contrôlées par clavier
 - **Génération audio** : Ondes sinusoïdales en temps réel
 - **Multi-notes** : Possibilité de jouer plusieurs notes simultanément
-- **Enveloppes ADSR** : Attack et Release pour un son naturel
 - **Interface clavier** : Mapping intuitif des touches
 
 ## 🎮 Contrôles
@@ -34,7 +33,7 @@ Ce projet permet d'apprendre la programmation audio en temps réel en construisa
 
 ### Prérequis
 - Python 3.8+
-- Jupyter Notebook
+- PIP
 
 ### Installation des dépendances
 
@@ -80,29 +79,19 @@ Où :
 ## 📖 Structure du Projet
 
 ```
-├── synthétiseur_piano_virtuel.ipynb  # Notebook pédagogique
-├── chat_gpt_prog.py                  # Script complet
+├── synthétiseur_piano_virtuel.ipynb  # Notebook Jupyter
 ├── README.md                         # Ce fichier
 └── LICENSE                           # Licence MIT
 ```
 
-## 🎓 Pédagogie
+## 🎓 Pratique
 
 Ce projet est conçu pour l'apprentissage :
 
 1. **Théorie musicale** : Comprendre les mathématiques derrière la musique
 2. **Programmation audio** : Génération de signaux numériques
 3. **Temps réel** : Gestion des flux audio et des événements
-4. **Architecture logicielle** : Threading, callbacks, gestion d'état
 
-## 🔧 Améliorations Possibles
-
-- 🎵 Plus d'octaves (notes graves et aiguës)
-- 🎛️ Contrôles de volume et d'enveloppe
-- 🎼 Effets audio (réverbération, distorsion)
-- 🎹 Interface graphique avec clavier visuel
-- 🎶 Enregistrement des performances
-- 🎵 Formes d'ondes multiples (carrée, triangulaire)
 
 
 Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
