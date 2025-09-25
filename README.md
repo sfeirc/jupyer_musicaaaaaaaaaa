@@ -1,12 +1,12 @@
-# 🎹 Synthétiseur Piano Virtuel
+#  Synthétiseur Piano Virtuel
 
 Un synthétiseur piano virtuel interactif créé avec Python et Jupyter Notebook pour des ateliers de programmation musicale.
 
-## 🎯 Objectif
+##  Objectif
 
 Ce projet permet d'apprendre la programmation audio en temps réel en construisant étape par étape un piano virtuel contrôlé par clavier.
 
-## ✨ Fonctionnalités
+##  Fonctionnalités
 
 - **Piano virtuel** : 13 notes (Do4 à Do5) contrôlées par clavier
 - **Génération audio** : Ondes sinusoïdales en temps réel
@@ -29,7 +29,7 @@ Ce projet permet d'apprendre la programmation audio en temps réel en construisa
 
 - **ESC** : Quitter le programme
 
-## 🚀 Installation
+##  Installation
 
 ### Prérequis
 - Python 3.8+
@@ -55,7 +55,7 @@ pip install numpy sounddevice pynput matplotlib
 3. Exécutez la dernière cellule pour lancer le piano
 
 
-## 🎵 Théorie Musicale
+##  Théorie Musicale
 
 Le synthétiseur utilise la formule du tempérament égal :
 
@@ -68,13 +68,12 @@ Où :
 - `f₀` = fréquence de référence (La4 = 440 Hz)
 - `n` = nombre de semitons par rapport à la note de référence
 
-## 🛠️ Architecture Technique
+##  Architecture Technique
 
 - **Génération audio** : `sounddevice` pour l'audio en temps réel
 - **Interface clavier** : `pynput` pour la détection des touches
 - **Calculs numériques** : `numpy` pour la génération d'ondes
 - **Threading** : Gestion des oscillateurs avec des verrous
-- **Enveloppes ADSR** : Attack/Release pour un son naturel
 
 ## 📖 Structure du Projet
 
@@ -95,6 +94,3 @@ Ce projet est conçu pour l'apprentissage :
 
 
 Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
-
-
-**🎉 Amusez-vous bien avec votre piano virtuel !**
