@@ -44,7 +44,7 @@ pip install numpy sounddevice pynput matplotlib
 
 ## 📚 Utilisation
 
-### Version Notebook (Recommandée pour l'apprentissage)
+### Version Notebook
 
 1. Ouvrez `synthétiseur_piano_virtuel.ipynb` dans Jupyter
 2. Suivez les missions étape par étape :
@@ -55,11 +55,6 @@ pip install numpy sounddevice pynput matplotlib
    - **Assemblage** : Synthétiseur complet
 3. Exécutez la dernière cellule pour lancer le piano
 
-### Version Script
-
-```bash
-python chat_gpt_prog.py
-```
 
 ## 🎵 Théorie Musicale
 
@@ -93,7 +88,7 @@ Où :
 
 ## 🎓 Pédagogie
 
-Ce projet est conçu pour l'apprentissage progressif :
+Ce projet est conçu pour l'apprentissage :
 
 1. **Théorie musicale** : Comprendre les mathématiques derrière la musique
 2. **Programmation audio** : Génération de signaux numériques
@@ -109,22 +104,8 @@ Ce projet est conçu pour l'apprentissage progressif :
 - 🎶 Enregistrement des performances
 - 🎵 Formes d'ondes multiples (carrée, triangulaire)
 
-## 🤝 Contribution
-
-Les contributions sont les bienvenues ! N'hésitez pas à :
-- Signaler des bugs
-- Proposer des améliorations
-- Ajouter de nouvelles fonctionnalités
-- Améliorer la documentation
-
-## 📄 Licence
 
 Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
-## 👨‍💻 Auteur
-
-Créé pour des ateliers de programmation musicale et d'apprentissage Python.
-
----
 
 **🎉 Amusez-vous bien avec votre piano virtuel !**
